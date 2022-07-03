@@ -24,7 +24,7 @@ for r in range(2, sheet.max_row + 1):
 smtpdObj = smtplib.SMTP('smtp.gmail.com', 587)
 smtpdObj.ehlo()
 smtpdObj.starttls()
-smtpdObj.login('meeztech12@gmail.com', "kbnkwjdkeiozbygr")
+smtpdObj.login('meeztech12@gmail.com', "")
 
 for name, email in unpaidMembers.items():
     body = "Subject: %s dues unpaid.\nDear %s, \nRecords show that you have not paid dues for %s.Please make this' \
